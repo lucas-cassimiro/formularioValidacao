@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 11px;
+    color: white;
+}
+
+.info .paragrafo {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 550px;
+    height: 550px;
+    padding: 30px;
+    justify-content: center;
+}
+
+input {
+    height: 55px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+}
+
+input::placeholder {
+    color: #A8A8A8;
+}
+
+.mensagem {
+    height: 100px;
+}
+
+.mensagem::placeholder {
+    margin-bottom: 20px;
+}
+
+.botaoEnviar {
+    width: 508px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #3CCC87;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.campo-obrigatorio {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.borda-vermelha {
+    border: 2px solid red;
+}
+
+.borda-verde {
+    border: 2px solid #00C22B;
+}
+
+#campo-obrigatorio,
+#campo-obrigatorio2 {
+    margin-bottom: 15px;
+}
